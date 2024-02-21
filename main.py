@@ -1,9 +1,8 @@
-from flask import Flask
-
-app = Flask('app')
-
-@app.route('/')
-def hello_world():
-  return 'Hello, World!'
-
-app.run(host='0.0.0.0', port=8080)
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+if a>b:
+  print("a is greater than b")
+elif a<b:
+  print("b is greater than a")
+else:
+  print("Both are equal")
