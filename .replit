@@ -1,4 +1,4 @@
-entrypoint = "main.py"
+entrypoint = "file2.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
@@ -11,7 +11,7 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
+run = ["python3", "file2.py"]
 deploymentTarget = "cloudrun"
 
 [[ports]]
