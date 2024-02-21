@@ -6,5 +6,5 @@ elif 50<a<=150:
   charge=100+(a-50)*3
 elif a>150:
   charge=100+300+(a-150)*8
-charge=charge+charge*0.2
+charge=int(charge+charge*0.2)
 print(charge)
