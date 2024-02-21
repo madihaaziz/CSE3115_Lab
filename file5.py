@@ -1,8 +1,7 @@
 gender=input()
-score=int(input())
-region=input()
-
 if gender=="Male":
+  score=int(input())
+  region=input()
   if score>=60 and (region=="Bengaluru" or       
      region=="bengaluru"):
       print("Eligible")
