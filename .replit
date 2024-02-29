@@ -11,7 +11,7 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "29_02_24/file5.py"]
+run = ["python3", "28_02_24/file5.py"]
 deploymentTarget = "cloudrun"
 
 [[ports]]
